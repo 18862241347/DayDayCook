@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EE2CC7FC1E80264F0086238E /* RecipeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE2CC7FB1E80264F0086238E /* RecipeViewController.m */; };
 		EE683D7E1E8022DE006A2293 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EE683D7D1E8022DE006A2293 /* main.m */; };
 		EE683D811E8022DE006A2293 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EE683D801E8022DE006A2293 /* AppDelegate.m */; };
 		EE683D841E8022DE006A2293 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE683D831E8022DE006A2293 /* ViewController.m */; };
@@ -19,12 +20,10 @@
 		EE683DB91E80230E006A2293 /* XLNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE683DB31E80230E006A2293 /* XLNavigationController.m */; };
 		EE683DBA1E80230E006A2293 /* XLTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE683DB51E80230E006A2293 /* XLTabBarController.m */; };
 		EE683DBB1E80230E006A2293 /* XLTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE683DB71E80230E006A2293 /* XLTableViewController.m */; };
-		EE683DD31E802316006A2293 /* ClassifyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE683DBF1E802316006A2293 /* ClassifyViewController.m */; };
 		EE683DD41E802316006A2293 /* FindViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE683DC31E802316006A2293 /* FindViewController.m */; };
 		EE683DD51E802316006A2293 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE683DC71E802316006A2293 /* HomeViewController.m */; };
 		EE683DD61E802316006A2293 /* CustomNavigationBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = EE683DCA1E802316006A2293 /* CustomNavigationBarView.m */; };
 		EE683DD71E802316006A2293 /* MyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE683DCD1E802316006A2293 /* MyViewController.m */; };
-		EE683DD81E802316006A2293 /* SthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE683DD11E802316006A2293 /* SthViewController.m */; };
 		EE683DDF1E80231C006A2293 /* GlobalUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = EE683DDC1E80231C006A2293 /* GlobalUtils.m */; };
 		EE683DE01E80231C006A2293 /* JSessionInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = EE683DDE1E80231C006A2293 /* JSessionInfo.m */; };
 		EE683E831E802322006A2293 /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = EE683DE41E802322006A2293 /* MASCompositeConstraint.m */; };
@@ -106,6 +105,11 @@
 		EE683EE11E802329006A2293 /* UIImageView+common.m in Sources */ = {isa = PBXBuildFile; fileRef = EE683ED61E802329006A2293 /* UIImageView+common.m */; };
 		EE683EE21E802329006A2293 /* UITableViewCell+common.m in Sources */ = {isa = PBXBuildFile; fileRef = EE683ED81E802329006A2293 /* UITableViewCell+common.m */; };
 		EE683EE31E802329006A2293 /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = EE683EDA1E802329006A2293 /* UIView+Frame.m */; };
+		EEFE14451E80F48400EEF36A /* banner.plist in Resources */ = {isa = PBXBuildFile; fileRef = EEFE14411E80F48400EEF36A /* banner.plist */; };
+		EEFE14461E80F48400EEF36A /* classify.plist in Resources */ = {isa = PBXBuildFile; fileRef = EEFE14421E80F48400EEF36A /* classify.plist */; };
+		EEFE14471E80F48400EEF36A /* complete.plist in Resources */ = {isa = PBXBuildFile; fileRef = EEFE14431E80F48400EEF36A /* complete.plist */; };
+		EEFE14481E80F48400EEF36A /* newCuisine.plist in Resources */ = {isa = PBXBuildFile; fileRef = EEFE14441E80F48400EEF36A /* newCuisine.plist */; };
+		EEFE144B1E80F4E900EEF36A /* ResourceCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EEFE144A1E80F4E900EEF36A /* ResourceCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -126,6 +130,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		EE2CC7FA1E80264F0086238E /* RecipeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecipeViewController.h; sourceTree = "<group>"; };
+		EE2CC7FB1E80264F0086238E /* RecipeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecipeViewController.m; sourceTree = "<group>"; };
 		EE683D791E8022DE006A2293 /* DayDayCook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DayDayCook.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE683D7D1E8022DE006A2293 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		EE683D7F1E8022DE006A2293 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -150,8 +156,6 @@
 		EE683DB51E80230E006A2293 /* XLTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLTabBarController.m; sourceTree = "<group>"; };
 		EE683DB61E80230E006A2293 /* XLTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLTableViewController.h; sourceTree = "<group>"; };
 		EE683DB71E80230E006A2293 /* XLTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLTableViewController.m; sourceTree = "<group>"; };
-		EE683DBE1E802316006A2293 /* ClassifyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClassifyViewController.h; sourceTree = "<group>"; };
-		EE683DBF1E802316006A2293 /* ClassifyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClassifyViewController.m; sourceTree = "<group>"; };
 		EE683DC21E802316006A2293 /* FindViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FindViewController.h; sourceTree = "<group>"; };
 		EE683DC31E802316006A2293 /* FindViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FindViewController.m; sourceTree = "<group>"; };
 		EE683DC61E802316006A2293 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
@@ -160,8 +164,6 @@
 		EE683DCA1E802316006A2293 /* CustomNavigationBarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomNavigationBarView.m; sourceTree = "<group>"; };
 		EE683DCC1E802316006A2293 /* MyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyViewController.h; sourceTree = "<group>"; };
 		EE683DCD1E802316006A2293 /* MyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyViewController.m; sourceTree = "<group>"; };
-		EE683DD01E802316006A2293 /* SthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SthViewController.h; sourceTree = "<group>"; };
-		EE683DD11E802316006A2293 /* SthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SthViewController.m; sourceTree = "<group>"; };
 		EE683DDA1E80231C006A2293 /* GlobalConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GlobalConfig.h; sourceTree = "<group>"; };
 		EE683DDB1E80231C006A2293 /* GlobalUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GlobalUtils.h; sourceTree = "<group>"; };
 		EE683DDC1E80231C006A2293 /* GlobalUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GlobalUtils.m; sourceTree = "<group>"; };
@@ -331,6 +333,12 @@
 		EE683ED91E802329006A2293 /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
 		EE683EDA1E802329006A2293 /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
 		EE683EE41E802338006A2293 /* GlobalPrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GlobalPrefixHeader.pch; sourceTree = "<group>"; };
+		EEFE14411E80F48400EEF36A /* banner.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = banner.plist; sourceTree = "<group>"; };
+		EEFE14421E80F48400EEF36A /* classify.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = classify.plist; sourceTree = "<group>"; };
+		EEFE14431E80F48400EEF36A /* complete.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = complete.plist; sourceTree = "<group>"; };
+		EEFE14441E80F48400EEF36A /* newCuisine.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = newCuisine.plist; sourceTree = "<group>"; };
+		EEFE14491E80F4E900EEF36A /* ResourceCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResourceCell.h; sourceTree = "<group>"; };
+		EEFE144A1E80F4E900EEF36A /* ResourceCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResourceCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -358,6 +366,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		EE2CC7F81E80262E0086238E /* recipe */ = {
+			isa = PBXGroup;
+			children = (
+				EE2CC7F91E80262E0086238E /* View */,
+				EE2CC7FA1E80264F0086238E /* RecipeViewController.h */,
+				EE2CC7FB1E80264F0086238E /* RecipeViewController.m */,
+			);
+			path = recipe;
+			sourceTree = "<group>";
+		};
+		EE2CC7F91E80262E0086238E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EEFE14491E80F4E900EEF36A /* ResourceCell.h */,
+				EEFE144A1E80F4E900EEF36A /* ResourceCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		EE683D701E8022DE006A2293 = {
 			isa = PBXGroup;
 			children = (
@@ -390,6 +417,7 @@
 				EE683DE11E802322006A2293 /* ThirdParty */,
 				EE683DD91E80231C006A2293 /* Commons */,
 				EE683EC91E802329006A2293 /* Utils */,
+				EEFE14401E80F46C00EEF36A /* Resource */,
 				EE683D7C1E8022DE006A2293 /* Supporting Files */,
 			);
 			path = DayDayCook;
@@ -444,30 +472,12 @@
 		EE683DBC1E802316006A2293 /* Modules */ = {
 			isa = PBXGroup;
 			children = (
-				EE683DBD1E802316006A2293 /* Classify */,
+				EE2CC7F81E80262E0086238E /* recipe */,
 				EE683DC11E802316006A2293 /* Find */,
 				EE683DC51E802316006A2293 /* Home */,
 				EE683DCB1E802316006A2293 /* My */,
-				EE683DCF1E802316006A2293 /* Sth */,
 			);
 			path = Modules;
-			sourceTree = "<group>";
-		};
-		EE683DBD1E802316006A2293 /* Classify */ = {
-			isa = PBXGroup;
-			children = (
-				EE683DBE1E802316006A2293 /* ClassifyViewController.h */,
-				EE683DBF1E802316006A2293 /* ClassifyViewController.m */,
-				EE683DC01E802316006A2293 /* View */,
-			);
-			path = Classify;
-			sourceTree = "<group>";
-		};
-		EE683DC01E802316006A2293 /* View */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = View;
 			sourceTree = "<group>";
 		};
 		EE683DC11E802316006A2293 /* Find */ = {
@@ -521,23 +531,6 @@
 			children = (
 			);
 			path = Views;
-			sourceTree = "<group>";
-		};
-		EE683DCF1E802316006A2293 /* Sth */ = {
-			isa = PBXGroup;
-			children = (
-				EE683DD01E802316006A2293 /* SthViewController.h */,
-				EE683DD11E802316006A2293 /* SthViewController.m */,
-				EE683DD21E802316006A2293 /* View */,
-			);
-			path = Sth;
-			sourceTree = "<group>";
-		};
-		EE683DD21E802316006A2293 /* View */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = View;
 			sourceTree = "<group>";
 		};
 		EE683DD91E80231C006A2293 /* Commons */ = {
@@ -849,6 +842,17 @@
 			path = Utils;
 			sourceTree = "<group>";
 		};
+		EEFE14401E80F46C00EEF36A /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				EEFE14411E80F48400EEF36A /* banner.plist */,
+				EEFE14421E80F48400EEF36A /* classify.plist */,
+				EEFE14431E80F48400EEF36A /* complete.plist */,
+				EEFE14441E80F48400EEF36A /* newCuisine.plist */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -952,11 +956,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EEFE14481E80F48400EEF36A /* newCuisine.plist in Resources */,
 				EE683D8C1E8022DE006A2293 /* LaunchScreen.storyboard in Resources */,
+				EEFE14471E80F48400EEF36A /* complete.plist in Resources */,
+				EEFE14451E80F48400EEF36A /* banner.plist in Resources */,
 				EE683EC71E802322006A2293 /* SVProgressHUD.bundle in Resources */,
 				EE683D891E8022DE006A2293 /* Assets.xcassets in Resources */,
 				EE683E9B1E802322006A2293 /* MJRefresh.bundle in Resources */,
 				EE683EA11E802322006A2293 /* Readme.txt in Resources */,
+				EEFE14461E80F48400EEF36A /* classify.plist in Resources */,
 				EE683D871E8022DE006A2293 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -984,8 +992,6 @@
 			files = (
 				EE683DD41E802316006A2293 /* FindViewController.m in Sources */,
 				EE683E951E802322006A2293 /* MJRefreshBackGifFooter.m in Sources */,
-				EE683DD31E802316006A2293 /* ClassifyViewController.m in Sources */,
-				EE683DD81E802316006A2293 /* SthViewController.m in Sources */,
 				EE683EC01E802322006A2293 /* UIProgressView+AFNetworking.m in Sources */,
 				EE683E9A1E802322006A2293 /* MJRefreshStateHeader.m in Sources */,
 				EE683EA91E802322006A2293 /* SDWebImageManager.m in Sources */,
@@ -993,6 +999,7 @@
 				EE683EE11E802329006A2293 /* UIImageView+common.m in Sources */,
 				EE683EB21E802322006A2293 /* AFHTTPRequestOperation.m in Sources */,
 				EE683E8F1E802322006A2293 /* MJRefreshComponent.m in Sources */,
+				EEFE144B1E80F4E900EEF36A /* ResourceCell.m in Sources */,
 				EE683EDC1E802329006A2293 /* NSString+NSString_Extended.m in Sources */,
 				EE683EDF1E802329006A2293 /* RegExUtilities.m in Sources */,
 				EE683EA61E802322006A2293 /* SDWebImageDecoder.m in Sources */,
@@ -1058,6 +1065,7 @@
 				EE683E9E1E802322006A2293 /* UIScrollView+MJRefresh.m in Sources */,
 				EE683EBB1E802322006A2293 /* AFNetworkActivityIndicatorManager.m in Sources */,
 				EE683D7E1E8022DE006A2293 /* main.m in Sources */,
+				EE2CC7FC1E80264F0086238E /* RecipeViewController.m in Sources */,
 				EE683E8B1E802322006A2293 /* View+MASAdditions.m in Sources */,
 				EE683EB81E802322006A2293 /* AFURLRequestSerialization.m in Sources */,
 				EE683EA81E802322006A2293 /* SDWebImageDownloaderOperation.m in Sources */,

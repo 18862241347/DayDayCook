@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>imageUrl</key>
+		<string>http://pic.daydaycook.com/production/images/20170310/30d8493d-fefc-4f78-9117-aef8871440e9</string>
+		<key>name</key>
+		<string>食谱分类</string>
+		<key>type</key>
+		<integer>1</integer>
+	</dict>
+	<dict>
+		<key>imageUrl</key>
+		<string>http://pic.daydaycook.com/production/images/20170310/8544bd2f-514e-4680-83fe-b0ef9c3dd556</string>
+		<key>name</key>
+		<string>视频专区</string>
+		<key>type</key>
+		<integer>2</integer>
+	</dict>
+	<dict>
+		<key>imageUrl</key>
+		<string>http://pic.daydaycook.com/production/images/20170310/c9db94e5-47af-47fd-8661-170191803702</string>
+		<key>name</key>
+		<string>厨艺挑战</string>
+		<key>type</key>
+		<integer>3</integer>
+	</dict>
+	<dict>
+		<key>imageUrl</key>
+		<string>http://pic.daydaycook.com/production/images/20170310/dad0d9c5-4493-4ad1-aa05-835804980484</string>
+		<key>name</key>
+		<string>签到奖励</string>
+		<key>type</key>
+		<integer>4</integer>
+	</dict>
+</array>
+</plist>

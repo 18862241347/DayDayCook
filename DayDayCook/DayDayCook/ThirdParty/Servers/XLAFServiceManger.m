@@ -114,8 +114,8 @@
              NSString *jsonStr_ = [[NSString alloc]initWithData:jsonData_ encoding:NSUTF8StringEncoding];
              NSLog(@"response json:%@", jsonStr_);
            
-             NSString *filePatch = @"/Users/jiang/Desktop/column.plist";
-             [jsonStr_ writeToFile:filePatch atomically:YES];
+//             NSString *filePatch = @"/Users/jiang/Desktop/column.plist";
+//             [jsonStr_ writeToFile:filePatch atomically:YES];
              
              NSInteger returnCode_ = [[dictionary objectForKey:server_return_Code] integerValue];
              if (returnCode_ == server_return_SusseccCode)

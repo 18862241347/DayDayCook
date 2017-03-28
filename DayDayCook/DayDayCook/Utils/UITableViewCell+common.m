@@ -9,18 +9,24 @@
 #import "UITableViewCell+common.h"
 
 @implementation UITableViewCell (common)
+
 + (UINib *)returnNib {
     return [UINib nibWithNibName:NSStringFromClass([self class]) bundle:[NSBundle mainBundle]];
 }
+
 + (NSString *)returnDefaultReuseIdentifier {
     return NSStringFromClass(self);
 }
+
 + (void)autoRegistNibForTableView:(UITableView *)tableView {
     [tableView registerNib:[self returnNib] forCellReuseIdentifier:[self returnDefaultReuseIdentifier]];
 }
+
 + (void)autoRegistClassForTableView:(UITableView *)tableView {
     [tableView registerClass:self forCellReuseIdentifier:[self returnDefaultReuseIdentifier]];
 }
+
+
 +(instancetype)cellWithTableView:(UITableView *)tableView 
 {
     NSString *ID =[self returnDefaultReuseIdentifier];
@@ -34,14 +40,20 @@
     
 
 }
+
+
 @end
+
+
+
+
 @implementation UICollectionViewCell (quick)
 
 + (UINib *)returnNib {
     return [UINib nibWithNibName:NSStringFromClass([self class]) bundle:[NSBundle mainBundle]];
 }
-+ (NSString *)returnDefaultReuseIdentifier
-{
+
++ (NSString *)returnDefaultReuseIdentifier {
     return NSStringFromClass(self);
 }
 
@@ -49,16 +61,16 @@
  *   注册一个 CollectionView Nib
  *
  */
-+ (void)autoRegistNibForCollectionView:(UICollectionView *)collectionView
-{
++ (void)autoRegistNibForCollectionView:(UICollectionView *)collectionView{
+    
     [collectionView registerNib:[self returnNib] forCellWithReuseIdentifier:[self returnDefaultReuseIdentifier]];
 }
 /**
  *   注册一个 CollectionView Class
  *
  */
-+ (void)autoRegistClassForCollectionView:(UICollectionView *)collectionView
-{
++ (void)autoRegistClassForCollectionView:(UICollectionView *)collectionView{
+    
     [collectionView registerClass:self forCellWithReuseIdentifier:[self returnDefaultReuseIdentifier]];
     
     

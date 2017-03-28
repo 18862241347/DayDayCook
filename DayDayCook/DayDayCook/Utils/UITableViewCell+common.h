@@ -11,6 +11,7 @@
 @interface UITableViewCell (common)
 //  
 + (UINib *)returnNib;
+
 + (NSString *)returnDefaultReuseIdentifier;
 
 /**

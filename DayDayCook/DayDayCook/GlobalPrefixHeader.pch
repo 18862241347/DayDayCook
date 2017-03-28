@@ -26,6 +26,8 @@
 #import "UIView+Frame.h"
 #import "UIImageView+common.h"
 
-#import "MJRefresh.h".
+#import "MJRefresh.h"
+
+
 
 #endif /* GlobalPrefixHeader_pch */
