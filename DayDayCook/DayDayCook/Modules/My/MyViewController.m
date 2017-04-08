@@ -43,21 +43,41 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+    
+
+    
+    
+    UIView*view=[[UIView alloc]init];
+//    view.backgroundColor = [UIColor orangeColor];
+    [self.view addSubview:view];
+    [view mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.top.bottom.left.right.equalTo(self.view);
+        
+        
+    }];
+    
+    
+    
+    [view addSubview:self.tableView];
+    [self.tableView mas_updateConstraints:^(MASConstraintMaker *make) {
+        
+        make.top.bottom.left.right.equalTo(view);
+
+        
+    }];
+    self.tableView.backgroundColor =[UIColor clearColor];
+
+    
     [ResourceCell autoRegistClassForTableView:self.tableView];
     
-    [self.tableView reloadData];
+//    [self.tableView reloadData];
     
     
 }
 
 #pragma mark--
 #pragma mark--UITableViewDelegate
--(NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
-{
-    
-    NSInteger   sectionCount=1;
-    return sectionCount;
-}
+
 -(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
     NSInteger   rowCount=self.completeArr.count;
@@ -79,7 +99,9 @@
 }
 -(CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    CGFloat  rowH=50+_lastY;
+    CGFloat  rowH=50+0;
+    
+    
     
     return rowH;
     
@@ -108,14 +130,7 @@
 
 -(void)startAnimation:(UIView*)view offsetY:(CGFloat)offsetY duration:(NSTimeInterval)duration
 {
-    
-    //    view.transform = CGAffineTransformMakeTranslation(0, offsetY);
-    //    [UIView animateWithDuration:duration animations:^{
-    //
-    //        view.transform = CGAffineTransformIdentity;
-    //
-    //    }];
-    
+ 
     
     view.transform = CGAffineTransformMakeTranslation(0, offsetY);
     [UIView animateWithDuration:duration animations:^{
@@ -132,53 +147,49 @@
 
 
 
-//- (void)scrollViewDidScroll:(UIScrollView *)scrollView
-//{
-//    
-//    
-//    _lastY = scrollView.contentOffset.y;
-//    
-//    
-//        if (_offY>-64) {
-//            
-//            for (ResourceCell*cell in self.tableView.subviews) {
-//                
-//                [self startAnimation:cell offsetY:20 duration:0.1];
-//                
-//            }
-//    
-//    
-//        }else{
-//    
-//            
-//        }
+- (void)scrollViewDidScroll:(UIScrollView *)scrollView
+{
+    
+    
+    _lastY = scrollView.contentOffset.y;
+    
+    
+    NSLog(@"DADA%f",_lastY);
+
+    
+    
+        if (_lastY>-64)
+        {
+            
+            
+            
+            
+            for (ResourceCell*cell in self.tableView.subviews)
+            {
+                
+                
+                CGAffineTransform T = CGAffineTransformIdentity;
+                cell.transform = CGAffineTransformScale(T, 1, 1.2);
+
+                
+            }
+    
+    
+        }else
+        {
+    
+            
+        }
 
     
     
     
-    
-//    _offY = scrollView.contentOffset.y;
-//    
-//    
-//    if (_offY>-64) {
-//        
-//        _lastY = 0;
-//
-//        
-//    }else{
-//        
-//        _lastY = 100 ;
-//
-//    }
-//
-//    [self.tableView reloadData];
-
-    
+   
     
     
 
     
-//}
+}
 //- (void)scrollViewWillEndDragging:(UIScrollView *)scrollView withVelocity:(CGPoint)velocity targetContentOffset:(inout CGPoint *)targetContentOffset NS_AVAILABLE_IOS(5_0)
 //{
 //    _lastY = 0 ;
